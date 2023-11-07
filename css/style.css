@@ -73,3 +73,67 @@ a:hover {
   color: #333;
   font-weight: bold;
 }
+
+/* Barra lateral => */
+#sidebar {
+  flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+#search-bar h4,
+#categories h4,
+#tags h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+#search-bar form {
+  display: flex;
+}
+
+#search-bar input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+}
+
+#search-bar input[type="submit"] {
+  cursor: pointer;
+  background-color: #37a1f7;
+  color: #fff;
+  border: none;
+}
+
+#categories li {
+  margin-bottom: 1rem;
+}
+
+#tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+#tags-container a {
+  background-color: #ddd;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.3rem;
+}
+
+/* Rodapé */
+#footer {
+  border-top: 2px solid #ddd;
+  padding: 3rem;
+  text-align: center;
+}
+
+#footer h2,
+#footer p {
+  margin-bottom: 1rem;
+}
