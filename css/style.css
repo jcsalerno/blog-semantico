@@ -137,3 +137,10 @@ a:hover {
 #footer p {
   margin-bottom: 1rem;
 }
+
+/* Responsivo */
+@media (max-width: 450px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
